@@ -8,4 +8,5 @@ COPY rootfs /
 
 # component installation requirements
 RUN mkdir --parents /opt/bitnami
-RUN install_packages tar gzip curl ca-certificates sudo procps-ng libaio-devel which
+RUN yum upgrade -y && \
+    install_packages tar gzip curl ca-certificates sudo procps-ng libaio-devel which

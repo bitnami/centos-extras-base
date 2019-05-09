@@ -10,7 +10,7 @@ FROM bitnami/centos-extras-base
 
 ## About
 
-The `bitnami/centos-extras-base` image is a customized base image for use in Bitnami bash-based container images and is built on top of the optimized (Oracle Linux image)[https://hub.docker.com/r/library/oraclelinux/] from Docker Hub.
+The `bitnami/centos-extras-base` image is a customized base image for use in Bitnami bash-based container images and is built on top of the optimized (CentOS image)[https://hub.docker.com/\_/centos] from Docker Hub.
 
 ## Contributing
 

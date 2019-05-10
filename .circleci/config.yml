@@ -43,4 +43,4 @@ workflows:
       - build:
           filters:
             tags:
-only: /^.*-r[0-9]+$/
+              only: /^.*-r[0-9]+$/

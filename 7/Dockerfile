@@ -3,7 +3,7 @@ FROM centos:7
 LABEL maintainer "Bitnami <containers@bitnami.com>"
 ENV IMAGE_OS=centos-7
 
-ENV BITNAMI_IMAGE_VERSION=7-r323
+ENV BITNAMI_IMAGE_VERSION=7-r324
 
 COPY rootfs /
 
